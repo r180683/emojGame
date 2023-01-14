@@ -1,0 +1,37 @@
+/* Write your code here. */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9796f0;
+}
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  width: 40px;
+  height: 40px;
+}
+.nav-logo-name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding-left: 5px;
+}
+.nav-score-container {
+  display: flex;
+}
+.nav-score {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 16px;
+}
